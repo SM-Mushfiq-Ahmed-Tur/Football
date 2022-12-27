@@ -80,7 +80,7 @@ body {
     margin-right: 102px;
 }
 
-.linked-button-two {
+.linked-button2 {
     margin-top: -40px;
     margin-left: 156px;
     padding: 10px 24px;
@@ -89,12 +89,12 @@ body {
     text-align: center;
 }
 
-.linked-button-two:hover {
+.linked-button2:hover {
     background-color: orange;
     transition: 0.2s;
 }
 
-.linked-button-two a {
+.linked-button2 a {
     text-decoration: none;
     font-size: 16px;
     color: white;
