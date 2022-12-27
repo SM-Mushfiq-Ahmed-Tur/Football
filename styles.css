@@ -1,0 +1,352 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Poppins:wght@400;500;700&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+/* ___________--------1st Part (Navbox)--------___________ */
+.navbox {
+    width: 100%;
+    height: 677px;
+    background-color: #2D25A0;
+}
+
+.navbar {
+    text-decoration: none;
+    color: white;
+    background-color: #2D25A0;
+    font-size: 16px;
+    padding-left: 36px;
+}
+
+.line {
+    padding-top: 42px;
+    padding-left: 120px;
+    height: 44px;
+}
+
+.linked-button {
+    margin-top: 42px;
+    margin-left: 450px;
+    padding: 10px 24px;
+    width: 123px;
+    background-color: #E02C6D;
+    text-align: center;
+}
+
+.linked-button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-right: 8px;
+}
+
+.linked-button:hover {
+    background-color: orange;
+    transition: 0.2s;
+}
+
+.fa-arrow-right-to-bracket {
+    padding-right: 8px;
+    color: white;
+}
+
+/* Banner */
+.part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.part1 img {
+    margin-top: -300px;
+    padding-left: 900px;
+    width: 556.01px;
+    height: 428px;
+}
+
+.banner h1 {
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    width: 485px;
+    height: 230px;
+    padding-top: 121px;
+    padding-left: 156px;
+    margin-right: 102px;
+}
+
+.linked-button-two {
+    margin-top: -40px;
+    margin-left: 156px;
+    padding: 10px 24px;
+    width: 148px;
+    background-color: #E02C6D;
+    text-align: center;
+}
+
+.linked-button-two:hover {
+    background-color: orange;
+    transition: 0.2s;
+}
+
+.linked-button-two a {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    padding-right: 8px;
+}
+
+.fa-arrow-right {
+    padding-right: 24px;
+    color: white;
+}
+
+/* ___________--------2nd Part (Players)--------___________ */
+.players {
+    padding: 70px 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.players h2 {
+    padding-top: 16px;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.players p {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    border: 15px solid white;
+    box-shadow: 3px 3px 10px 10px lightgrey;
+    margin-bottom: 27px;
+    width: 330px;
+    height: 474px;
+}
+
+/* ___________-------- Last Part --------___________ */
+.last-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-part-details {
+    padding-top: 224px;
+    padding-left: 182px;
+    width: 469px;
+    height: 309px;
+    padding-right: 66px;
+}
+
+.last-part h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.last-part p {
+    width: 404px;
+    height: 113px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #6C6C6C;
+}
+
+.last-part img {
+    width: 567px;
+    height: 427px;
+    padding-right: 156px;
+    padding-top: 165px;
+}
+
+#last-part {
+    margin-top: 27px;
+    margin-left: 0;
+}
+
+/* ___________-------- Footer --------___________ */
+.footer {
+    padding-top: 175px;
+}
+
+.img1 {
+    padding-left: 456px;
+}
+
+.img2 {
+    display: none;
+}
+
+.social-icons {
+    width: 32px;
+    height: 32px;
+    padding-top: 20px;
+    padding-right: 18px;
+}
+
+.icon {
+    padding-left: 631px;
+}
+
+.icons {
+    padding-right: 14px;
+}
+
+footer {
+    padding-top: 20px;
+    padding-left: 600px;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 63px;
+}
+
+/* Media-screen */
+@media only screen and (max-width:688px) {
+    .navbox {
+        width: 100%;
+        height: 695px;
+        margin-bottom: 47px;
+    }
+
+    .one,
+    .two,
+    .three {
+        width: 24px;
+        height: 3px;
+        background-color: white;
+        margin: 4px 0;
+    }
+
+    .div {
+        height: 24px;
+        width: 24px;
+        margin-left: 16px;
+        margin-top: -45px;
+        margin-right: 209px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .linked-button {
+        margin: 0;
+        padding: 7px 18px;
+        width: 90px;
+        background-color: #E02C6D;
+        text-align: center;
+        margin-left: 170px;
+    }
+
+    .linked-button a {
+        text-decoration: none;
+        font-size: 11px;
+        color: white;
+    }
+
+    .fa-arrow-right-to-bracket {
+        font-size: 11px;
+        padding-right: 6px;
+        color: white;
+    }
+
+
+    .banner h1 {
+        padding-top: 52px;
+        padding-left: 16px;
+        width: 278px;
+        height: 138px;
+        font-size: 36px;
+    }
+
+    .part1 img {
+        padding: 0;
+        margin-top: 150px;
+        margin-left: 15px;
+        width: 329px;
+        height: 259px;
+    }
+
+    .linked-button-two {
+        margin-top: -350px;
+        margin-left: 19px;
+    }
+
+    .players {
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 15px;
+    }
+
+    .last-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .last-part img {
+        width: 328px;
+        height: 248px;
+        padding-left: 16px;
+        padding-top: 29px;
+        padding-right: 0;
+    }
+
+    .last-part-details {
+        padding-top: 60px;
+        padding-left: 15px;
+    }
+
+    .last-part-details h1 {
+        width: 294px;
+        height: 80px;
+        font-weight: 700;
+        font-size: 30px;
+        padding-bottom: 8px;
+    }
+
+    .last-part-details p {
+        width: 329px;
+        height: 143px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .img1 {
+        display: none;
+    }
+
+    .img2 {
+        display: block;
+        padding-left: 18px;
+        padding-bottom: 51px;
+    }
+
+    .icon {
+        padding-left: 95px;
+        padding-right: 14px;
+    }
+
+    .footer {
+        padding-top: 51px;
+    }
+
+    footer {
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: 68px;
+    }
+}
